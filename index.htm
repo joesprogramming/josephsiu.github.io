@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- 
+*****************************************************************************
+Title: Index
+Use: Homepage
+Author: Joe Joseph
+School/Term: Southern Illinois University, Fall, 2021
+Developed: Oct 24, 2021  
+Tested: Oct 24, 2021 ; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">
+        <title>Josephs Bicycles</title>
+        <link rel="Shortcut Icon" href="fav.png">
+        <link rel="stylesheet" type = "text/css" href="main.css">
+        <link rel="stylesheet" types = "text/css" href="slicknav.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="jquery.slicknav.js"></script> 
+        <link rel="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+        <script>
+                $(document).ready(function(){
+                    $('#nav_menu').slicknav({prependTo: "#mobile_menu"});
+                });
+        </script>
+            
+
+</head>
+
+<body>
+        <header>
+                <img src="trekbike.JPG" alt="Bike" height="50">
+
+                <h1>Josephs Bicycles</h1>
+        </header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+                <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="rentals.htm">Rentals</a></li>
+                <li><a href="sales.htm">Sales</a></li>
+                <li><a href="services.htm">Services</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+                </ul>
+        </nav>
+        
+<main>
+<article>
+        <br>
+        
+        <figure>
+
+                
+                <div id="myimage" height="100"></div>
+                <figcaption>Lets Ride</figcaption>
+        </figure>
+        <p>Josephs Bicycles is located in heart of Downtown. 
+        We have been a haven for both Bicycle enthusiest and beginners. 
+        Known for our excellent customer serveice, experienced professionals, and rock bottom prices.
+        Whether you are a new or an experienced rider
+        you will always find something at Josephs Bicycles!</p> 
+</article>
+
+<aside>
+        <br>
+       <h2>Top Brands and Best Sellers</h2>
+                <ul class="bike-list">
+                        <li class="bike-list-item">Trek</li>
+                        <li class="bike-list-item">Schwin</li>
+                        <li class="bike-list-item">Dianmondback</li>
+                        <li class="bike-list-item">Giant Bicycle</li>
+                        <li class="bike-list-item">GT Bike</li>
+                </ul>
+                <audio id="player" controls autoplay loop width=200>
+                <source src="horn.mp3">
+                </audio>
+</aside>
+                
+</main>
+<footer>
+        <p1>How to contact Josephs bicycles</p1>
+        <address>40 Court Street, Tallahassee, FL<br>
+        1-800-646-9978<br>
+        <a href="https://siu.edu/">Southern Illinois University</a>
+        </address>
+    </footer>
+
+</body>
+</html>
