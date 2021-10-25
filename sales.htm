@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- 
+*****************************************************************************
+Title: Sales
+Use: Bike Sales
+Author: Joe Joseph
+School/Term: Southern Illinois University, Fall, 2021
+Developed: Oct 24, 2021  
+Tested: Oct 24, 2021 ; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+<html lang="en-US">
+<head>
+        <meta charset="utf-8">
+        <title>Sales</title>
+        <link rel="Shortcut Icon" href="fav.png">
+        <link rel="stylesheet" type = "text/css" href="main.css">
+        <link rel="stylesheet" types = "text/css" href="slicknav.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="jquery.slicknav.js"></script> 
+        <link rel="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+        <script>
+                $(document).ready(function(){
+                    $('#nav_menu').slicknav({prependTo: "#mobile_menu"});
+                });
+        </script> 
+</head>
+<body>
+<header><h3>Sales</h3></header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+        <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="rentals.htm">Rentals</a></li>
+        <li><a href="sales.htm">Sales</a></li>
+        <li><a href="services.htm">Services</a></li>
+        <li><a href="contact.htm">Contact</a></li>
+        </ul>
+</nav>
+<main>
+        <article id="sales">
+        
+            <h3>It's Time For Your Next Adventure!</h3>
+            <video id="videoplayer" width="480" height="270" controls autoplay loop>
+                <source src="videobike.mp4">
+
+            </video>
+    
+
+    </article>
+
+
+    <aside id="best"><h3>Best Sellers!</h3>
+        <ul class="price-list">
+            <li class="price-list-item">Checkpoint ALR 4</li>
+                <ul>
+                    <li>$1,699.00</li>
+                    <img class="bikesales" src="ALR4.JPG" alt="Bike" height="50">
+                    <li>For when you want to explore</li>
+                </ul>
+            <li class="price-list-item">Domane AL 2 Disc</li>
+                <ul>
+                    <li>$1,179.99</li>
+                    <img class="bikesales" src="AL2.JPG" alt="Bike" height="50">
+                    <li>Perfect for beginners and intermediates</li>
+                </ul>
+            <li class="price-list-item">Roscoe 6</li>
+                <ul>
+                <li>$1,149.99</li>
+                <img class="bikesales" src="R6.JPG" alt="Bike" height="50">
+                <li>Entry-level Moutain Bike</li>
+                </ul>
+            <li class="price-list-item">Roscoe 7</li>
+                <ul>
+                <li>$1,349.99</li>
+                <img class="bikesales" src="R7.JPG" alt="Bike" height="50">
+                <li>Excellent for Trail Enthusiest</li>
+                </ul>
+            
+    </ul>
+    </aside>
+
+</main>
+    <footer>
+        <p1>How to contact Josephs bicycles</p1>
+        <address>40 Court Street, Tallahassee, FL<br>
+        1-800-646-9978<br>
+        <a href="https://siu.edu/">Southern Illinois University</a>
+        </address>
+    </footer>
+
+
+</body>
+</html>
